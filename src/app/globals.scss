@@ -1,0 +1,51 @@
+@use '@/assets/styles/tailwind-all';
+@use '@/assets/styles/fa-all';
+@use '@/assets/styles/pretendardvariable-jp';
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family:
+          'Pretendard JP Variable',
+          'Pretendard JP',
+          Pretendard,
+          -apple-system,
+          BlinkMacSystemFont,
+          system-ui,
+          Roboto,
+          'Helvetica Neue',
+          'Segoe UI',
+          'Hiragino Sans',
+          'Apple SD Gothic Neo',
+          Meiryo,
+          'Noto Sans JP',
+          'Noto Sans KR',
+          'Malgun Gothic',
+          Osaka,
+          'Apple Color Emoji',
+          'Segoe UI Emoji',
+          'Segoe UI Symbol',
+          sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--color-rose-50);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+}
